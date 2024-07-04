@@ -14,11 +14,11 @@ function speedcalculator() {
         // Check if merit points are greater than 12
         if (merit > 12) {
             // If merit points exceed 12, return 'License suspended'
-            return License suspended;
+            return 'License suspended';
         }
     }
     // Return the calculated merit points
-    return points: ${merit};
+    return 'points: ${merit}';
 }
 
 // Call the speedcalculator function and log the result to the console

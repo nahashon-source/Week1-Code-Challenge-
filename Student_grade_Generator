@@ -33,4 +33,4 @@ function calculatingGrade() {
 // Call the calculatingGrade function and store the result in grademessage variable
 let grademessage = calculatingGrade();
 
-console.log(Hello ${username}, your current grade is ${grademessage}.);
+console.log('Hello ${username}, your current grade is ${grademessage}.');

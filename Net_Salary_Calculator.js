@@ -104,7 +104,7 @@ function taxCalculator() {
     netSalary = grossSalary - totalTaxes;
 
     // Return a formatted message with the calculated values
-    return Hello, your gross salary is ${grossSalary}, NHIF is ${NHIF}, your paye is ${paye} and your nssf deduction is ${nssfDeductions}. Hence your total taxation is ${totalTaxes} and your Net salary is ${netSalary};
+    return 'Hello, your gross salary is ${grossSalary}, NHIF is ${NHIF}, your paye is ${paye} and your nssf deduction is ${nssfDeductions}. Hence your total taxation is ${totalTaxes} and your Net salary is ${netSalary}';
 }
 
 // Call the taxCalculator function and store the result in the taxmssg variable
@@ -112,4 +112,4 @@ taxmssg = taxCalculator();
 
 // Log the formatted message to the console
 console.log(taxmssg);
-// you can play around with the values for gross salary to get different answers
+// you can play around with the values for gross salary to get different answers~
